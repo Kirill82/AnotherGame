@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = {
   mode: 'development',
-  entry: path.join(__dirname, 'youtube-client/index.js'),
+  entry: path.join(__dirname, 'src/index.js'),
   output: {
     filename: 'bundle.js',
   },
@@ -33,7 +33,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'youtube-client',
+      title: 'AnotherGame',
     }),
   ],
 };
