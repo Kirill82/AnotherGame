@@ -11,9 +11,3 @@ class Navigation {
 }
 
 export default Navigation;
-/*export default class Navigation { 
-  render() {
-    this.container = document.createElement(`section`);
-    return this.container;
-  };
-}*/

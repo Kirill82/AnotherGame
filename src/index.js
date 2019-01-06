@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './navigation/navigation';
 
 const startApp = () => {
-    Navigation.render();
+  Navigation.render();
 };
 
 startApp();
