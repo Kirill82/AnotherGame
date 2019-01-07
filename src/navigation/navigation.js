@@ -3,7 +3,7 @@ import './navigation.css';
 
 class Navigation {
   static render() {
-    const navHTML = document.createElement(`section`);
+    const navHTML = document.createElement('section');
     navHTML.className = 'app-navigation';
     navHTML.innerHTML = NavTemplate;
     document.body.appendChild(navHTML);
