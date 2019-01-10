@@ -1,7 +1,7 @@
 import ModalTemplate from './modal-dialog.html';
 import './modal-dialog.css';
 
-class Modal {
+class ModalDialog {
   static render() {
     const navHTML = document.createElement('section');
     navHTML.className = 'modal-dialog';
@@ -10,4 +10,4 @@ class Modal {
   }
 }
 
-export default Modal;
+export default ModalDialog;
