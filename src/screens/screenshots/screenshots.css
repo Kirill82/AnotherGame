@@ -1,7 +1,16 @@
 .app-screenshots {
-  background-color: white;
+  background-color: lightgray;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  height: 900px;
+  height: 1000px;
+}
+
+.carousel {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.col-lg-12 {
+  padding: 10% 0 0 0;
 }

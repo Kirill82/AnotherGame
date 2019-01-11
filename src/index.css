@@ -1,9 +1,8 @@
 body {
   position: relative;
   margin: auto;
-  
-  max-width: 1660px;
+  background-color: #000;
+  min-width: 1280px;
   font-family: 'Lato', 'Arial', sans-serif;
-  height: 710px;
   overflow: auto;
 }

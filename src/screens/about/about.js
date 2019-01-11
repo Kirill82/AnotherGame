@@ -5,6 +5,7 @@ class About {
   static render() {
     const navHTML = document.createElement('section');
     navHTML.className = 'app-about';
+    navHTML.id = 'about';
     navHTML.innerHTML = AboutTemplate;
     document.body.appendChild(navHTML);
   }

@@ -5,6 +5,7 @@ class Home {
   static render() {
     const navHTML = document.createElement('section');
     navHTML.className = 'app-home';
+    navHTML.id = 'home';
     navHTML.innerHTML = HomeTemplate;
     document.body.appendChild(navHTML);
   }

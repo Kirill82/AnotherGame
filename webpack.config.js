@@ -26,18 +26,25 @@ module.exports = {
       {
         test: /\.(png|svg|jpg|gif)$/,
         use: [
-          'file-loader'
-        ]
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: './img',
+              publicPath: './img',
+            },
+          },
+        ],
       },
       {
         test: /\.(html)$/,
         use: {
           loader: 'html-loader',
           options: {
-            attrs: [':data-src']
-          }
-        }
-      }
+            attrs: [':data-src'],
+          },
+        },
+      },
     ],
   },
   plugins: [
