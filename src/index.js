@@ -21,7 +21,3 @@ const startApp = () => {
 };
 
 startApp();
-
-/* let nav = new Navigation(); */
-
-/* document.body.appendChild(nav.render()); */
